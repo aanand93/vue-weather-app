@@ -34,6 +34,7 @@ export default {
   name: 'App',
   data	()	{
         return	{
+            /* Create an .env file and add store your secret api key from openweathermap.com as VUE_APP_MY_ENV_VARIABLE */
             api_key: `${process.env.VUE_APP_MY_ENV_VARIABLE}`,
             url_base: "https://api.openweathermap.org/data/2.5/",
             query: '',
